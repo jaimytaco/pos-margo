@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'GoogleSans-Bold';
+    src: url('/fonts/googlesans/GoogleSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Medium';
+    src: url('/fonts/googlesans/GoogleSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'GoogleSans-Regular';
+    src: url('/fonts/googlesans/GoogleSans-Regular.ttf');
+}
+
+body{
+    font-size: 10px;
+}
+
+main,
+section{
+    width: 100%;
+}
+
+article{
+    width: 100%;
+    padding-top: 56px;
+}
+
+h1{
+    font: 4em/1.2 'GoogleSans-Bold';
+}
+
+p{
+    font: 1.2em/1.2 'GoogleSans-Regular';
+}
+
+a,
+button{
+    font: 1em/1.2 'GoogleSans-Medium';
+    appearance: none;
+    color: #000;
+    background: #fff;
+    border: none;
+}
+
+nav.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    padding: 0 24px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}

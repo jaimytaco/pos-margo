@@ -1,0 +1,35 @@
+.order-price-total{
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-price-total p{
+    font-family: 'GoogleSans-Medium';
+    margin-bottom: 8px;
+}
+
+.order-price-total h1{
+    position: relative;
+}
+
+.order-price-total h1::before{
+    content: attr(data-coin);
+    position: absolute;
+    top: 50%;
+    left: -1.5em;
+    transform: translateY(-50%);
+    font-size: calc(1.2em/4);
+}
+
+.order-price-total h1 span{
+    font-size: calc(3em/4);
+    margin-left: -.25em;
+}
+
+.order-actions{
+    width: 100%;
+}

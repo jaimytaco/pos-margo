@@ -1,0 +1,22 @@
+.btn-icon-text{
+    padding: 10px 12px;
+    border-radius: 16px;
+    background: #efefef;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.btn-icon-text img{
+    margin-right: 4px;
+}
+
+.btn-auth{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #efefef;
+}
+
+.btn-icon-text-big{
+    
+}
